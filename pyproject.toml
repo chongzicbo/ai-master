@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-master"
+version = "0.1.0"
+description = "master ai"
+authors = ["chengbo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ultralytics = "^8.2.87"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
