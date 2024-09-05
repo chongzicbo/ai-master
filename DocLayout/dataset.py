@@ -36,16 +36,22 @@ from pathlib import Path
 import numpy as np
 
 
-def convert_coco_json_to_txt(json_dir, output_dir):
+def convert_coco_json_to_txt(json_path: str, output_dir: str) -> None:
+    """convert coco format to yolov8 format
+
+    Args:
+        json_path (str): _description_
+        output_dir (str): _description_
+    """
     # Import json
-    with open(json_dir) as f:
+    with open(json_path) as f:
         fn = Path(output_dir)  # folder name
         data = json.load(f)
 
         # Write labels file
         h, w, f = (
             data["metadata"]["coco_height"],
-            data["metadata"]["coco_height"],
+            data["metadata"]["coco_width"],
             data["metadata"]["page_hash"],
         )
 
