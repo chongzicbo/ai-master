@@ -8,4 +8,6 @@ model.train(
     epochs=100,
     imgsz=640,
     batch=32,
+    resume=True,
+    device=[0],
 )

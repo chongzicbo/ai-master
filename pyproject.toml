@@ -8,7 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 ultralytics = "^8.2.87"
+gradio = "^4.43.0"
 
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 
 [build-system]
 requires = ["poetry-core"]
