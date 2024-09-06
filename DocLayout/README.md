@@ -28,8 +28,8 @@ Please refer to dataset.py
 
 ## Model Predicting
 
-Please refer to [test.py](./DocLayout/test/py)
+Please refer to [test.py](./test.py)
 
 ## Gradio UI
 
-![Gradio ui](./DocLayout/images/DocLayout.png "Document Layout")
+![Gradio ui](./images/DocLayout.png "Document Layout")
