@@ -24,12 +24,18 @@ DocLayNet: [DS4SD/DocLayNet: DocLayNet: A Large Human-Annotated Dataset for Docu
 
 coco format data needs to be converted to Yolov8 input format in advance.
 
-Please refer to dataset.py
+Please refer to [dataset.py](./dataset.py)
+
+### Training
+
+Please refer to [train.py](./train.py)
 
 ## Model Predicting
 
 Please refer to [test.py](./test.py)
 
 ## Gradio UI
+
+Please refer to [gradio.py](./gradio_ui.py)
 
 ![Gradio ui](./images/DocLayout.png "Document Layout")
