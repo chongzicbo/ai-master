@@ -1,3 +1,5 @@
 */yolov8n.pt
 */runs/*
 *.pyc
+Qwen2TextCorrector/outputs*
+Qwen2TextCorrector/cache*
