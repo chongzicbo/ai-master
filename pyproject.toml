@@ -14,11 +14,24 @@ transformers = "^4.46.0"
 peft = "^0.13.2"
 loguru = "^0.7.2"
 tqdm = "^4.66.5"
+datasets = "^3.0.2"
+torch = { version = "2.4.1", source = "torch" }
+torchvision = { version = "0.19.1", source = "torch" }
+tensorboard = "2.18.0"
+uvicorn = "^0.32.0"
+pandas = "2.2.2"
+pillow = "10.4.0"
 
 
 [[tool.poetry.source]]
 name = "mirrors"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
+
+[[tool.poetry.source]]
+name = "torch"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "supplemental"
 
 [build-system]
 requires = ["poetry-core"]
