@@ -9,6 +9,11 @@ readme = "README.md"
 python = "^3.12"
 ultralytics = "^8.2.87"
 gradio = "^4.43.0"
+bitsandbytes = "^0.44.1"
+transformers = "^4.46.0"
+peft = "^0.13.2"
+loguru = "^0.7.2"
+tqdm = "^4.66.5"
 
 
 [[tool.poetry.source]]
