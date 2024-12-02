@@ -3,3 +3,6 @@
 *.pyc
 Qwen2TextCorrector/outputs*
 Qwen2TextCorrector/cache*
+FaceSwap/checkpoints/models/buffalo_l.zip
+FaceSwap/checkpoints/*
+>>>>>>> f854b8f (face swap)
