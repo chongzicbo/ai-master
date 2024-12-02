@@ -13,7 +13,7 @@ import shutil
 
 sys.path.append("..")
 import faceswap_insightface
-from video_process import video_images
+import video_images
 import insightface
 from insightface.app import FaceAnalysis
 import gradio as gr
